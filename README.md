@@ -1,7 +1,8 @@
 # Tumo task
 
-First we need to run `0001.init.sql` migration
-Then setup connection to postgres db in `config/db.js` file
+First we need to run `0001.init.sql` migration.
+
+Then setup connection to postgres db in `config/db.js` file.
 
 `npm i`
 
