@@ -1,0 +1,14 @@
+POST http://localhost:3000/v1/mass-changes
+Content-Type: application/json
+
+{
+  "filter": {
+    "city": "Москва"
+  },
+  "updatee": {
+    "last_name": "SoloninTes12t1234",
+    "first_name": "Trista111"
+  }
+}
+
+###
