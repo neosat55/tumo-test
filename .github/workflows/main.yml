@@ -36,3 +36,4 @@ jobs:
           echo Ref name - $GITHUB_REF_NAME
           echo Ref - $GITHUB_REF
           echo GITHUB_SHA - $GITHUB_SHA
+          echo GITHUB_HEAD_REF - $GITHUB_HEAD_REF
