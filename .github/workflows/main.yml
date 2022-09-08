@@ -32,5 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo Base ref - $GITHUB_BASE_REF
+          echo Ref name - $GITHUB_REF_NAME
+          echo Ref - $GITHUB_REF
+          echo GITHUB_SHA - $GITHUB_SHA
